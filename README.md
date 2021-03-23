@@ -16,7 +16,7 @@ Esta es la forma de ejecutar el proyecto en Windows:
 3.	Tener instalado las librerías express cors y uuid. La cuales instalamos con el siguiente comando $ npm i express cors uuid
 4.	Desde el CMD nos ubicamos en la carpeta backend del proyecto y ejecutamos el comando $ node server, para inicializar el backend.
 5.	Si nos pide cambiar de puerto, esto podemos hacerlo en la última función del archivo server.js en la carpeta backend.
-6.	Posteriormente nos ubicamos en la carpeta raíz del proyecto y ejecutamos el comando $ ng serve –open, para poder visualizar en la web el proyecto.
+6.	Posteriormente nos ubicamos en la carpeta raíz del proyecto y ejecutamos el comando $ ng serve --open, para poder visualizar en la web el proyecto.
 7.	Ya podemos añadir artículos, visualizar la lista y modificarla.
 
 
