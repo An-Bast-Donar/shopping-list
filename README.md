@@ -7,6 +7,18 @@ DESCRIPCIÓN DEL PROYECTO
 Este proyecto es una lista de compras personalizada. El usuario puede añadir artículos a la lista de compras, cada artículo tiene un nombre, un precio y la cantidad a comprar. En la lista de artículos, el usuario puede marcar los comprados y eliminarlos. La aplicación le muestra al usuario el precio total a pagar por todos los artículos.
 Cada artículo añadido es agregado a una base de datos en el lado del backend, que posteriormente es consultada y modificada para mostrarle al usuario su lista de artículos.
 
+Prueba del servidor iniciado:
+
+![Servidor](https://user-images.githubusercontent.com/49569043/112118018-f5781480-8b89-11eb-8f1b-c481df195c5f.JPG)
+
+Lista de compra:
+
+![Lista](https://user-images.githubusercontent.com/49569043/112118133-104a8900-8b8a-11eb-8586-becd71574870.JPG)
+
+Nueva articulo:
+
+![Nuevo](https://user-images.githubusercontent.com/49569043/112118163-15a7d380-8b8a-11eb-8da6-344df9a36379.JPG)
+
 
 EJECUTAR EL PROYECTO
 
