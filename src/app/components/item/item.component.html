@@ -1,0 +1,24 @@
+<!-- llamamos a la propiedad ngClass y evaluamos el objeto
+     si item.completed es true agregamos el estilo completed, si no lo quitamos -->
+<div class="row" [ngClass]="{'completed': item.completed}">
+    <div class="title">
+        <!-- accedemos a la propiedad checked, marcandola o no dependiendo del dato item.completed -->
+        <!-- e invocamos la funcion cada que el evento change se ejecute, osea cada que cambie el valor -->
+        <input type="checkbox" [checked] = "item.completed" (change)="onToggle(item)">
+        {{item.title}}
+    </div>
+    <div class="price">
+        <!-- |: nos permite aplicar una funcion a nuestros valores mostrados -->
+        {{item.price | currency}}
+    </div>
+    <div class="quantity">
+        {{item.quantity}}
+    </div>
+    <div class="total">
+        {{item.price * item.quantity | currency}}
+    </div>
+    <div class="actions">
+        <!-- definimos un evento entre parentecis y le asignamos la funcion a invocar cuando el evento se ejecute -->
+        <button (click)="onDelete(item)">Eliminar</button>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="main-container">
+    <!-- la estructura se repite tantas veces como el for lo espcifique-->
+    <!-- posteriormente pasamos la informacion: al objeto item de item.component.ts le enviamos los datos del objeto item que contiene el retorno del For -->
+    <!-- posteriormente llamamamos lo que ahora es el evento o propiedad deleteItem del archivo item.component.ts y le pasamos el item a traves del argumento $event al metodo deleteItem del archivo items.component.ts -->
+    <app-total mensaje="Total por pagar" [total]="total"></app-total>
+    <app-item 
+    *ngFor="let item of items" 
+    [item] = item
+    (deleteItem)="deleteItem($event)"
+    (toggleItem)="toggleItem($event)">
+    </app-item>
+</div>
