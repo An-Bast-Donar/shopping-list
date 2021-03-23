@@ -25,11 +25,12 @@ EJECUTAR EL PROYECTO
 Esta es la forma de ejecutar el proyecto en Windows:
 1.	Tener instalado Nodejs, que se puede hacer desde https://nodejs.org/es/
 2.	Tener instalado Angular, para esto se puede consultar la documentación oficial de Angular (https://angular.io/) o correr el comando $ npm install -g @angular/cli, desde el CMD
-3.	Tener instalado las librerías express cors y uuid. La cuales instalamos con el siguiente comando $ npm i express cors uuid
-4.	Desde el CMD nos ubicamos en la carpeta backend del proyecto y ejecutamos el comando $ node server, para inicializar el backend.
-5.	Si nos pide cambiar de puerto, esto podemos hacerlo en la última función del archivo server.js en la carpeta backend.
-6.	Posteriormente nos ubicamos en la carpeta raíz del proyecto y ejecutamos el comando $ ng serve --open, para poder visualizar en la web el proyecto.
+3.	Desde el CMD nos ubicamos en la carpeta backend del proyecto y ejecutamos el comando $ node server, para inicializar el backend.
+4.	Si nos pide cambiar de puerto, esto podemos hacerlo en la última función del archivo server.js en la carpeta backend.
+5.	Posteriormente nos ubicamos en la carpeta raíz del proyecto y ejecutamos el comando $ ng serve --open, para poder visualizar en la web el proyecto.
+6.	Si no encuentra los modulos, instalarlos con $ npm install --save-dev @angular-devkit/build-angular
 7.	Ya podemos añadir artículos, visualizar la lista y modificarla.
+8.	De ser requerido instalar en la carpeta backend las librerias $ npm i express cors uuid
 
 
 REFERENCIAS
