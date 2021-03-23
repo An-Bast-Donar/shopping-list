@@ -11,7 +11,7 @@ Lista de compra:
 
 ![Lista](https://user-images.githubusercontent.com/49569043/112118599-8818b380-8b8a-11eb-93bd-163e706531f9.JPG)
 
-Nueva articulo:
+Nuevo articulo:
 
 ![Nuevo](https://user-images.githubusercontent.com/49569043/112118163-15a7d380-8b8a-11eb-8da6-344df9a36379.JPG)
 
