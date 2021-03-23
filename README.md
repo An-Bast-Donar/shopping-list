@@ -9,7 +9,7 @@ Cada artículo añadido es agregado a una base de datos en el lado del backend, 
 
 Lista de compra:
 
-![Lista](https://user-images.githubusercontent.com/49569043/112118133-104a8900-8b8a-11eb-8586-becd71574870.JPG)
+![Lista](https://user-images.githubusercontent.com/49569043/112118599-8818b380-8b8a-11eb-93bd-163e706531f9.JPG)
 
 Nueva articulo:
 
